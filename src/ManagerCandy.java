@@ -14,14 +14,29 @@ public class ManagerCandy {
     }
 
     public void addCandyList(){
-
+        candyList.add()
     }
 
-    public void deleteCandyById(){
-
+    public void deleteCandy(int id){
+        boolean check = false;
+        for (int i = 0; i < candyList.size(); i++){
+            if (candyList.get(i).getId() == id){
+                candyList.remove(i);
+                check = true;
+            }
+        }
+        if (!check){
+            System.out.println("Candy not on this list");
+        }
+        displayAllCandyList();
     }
-    public void fixCandyById(){
-
+    public void editCandy(int id){
+        boolean check = false;
+        for (int i = 0; i < candyList.size(); i++){
+            if (candyList.get(i).getId() == id){
+                candyList.set(i, )
+            }
+        }
     }
     public void displayCandyById(){
 

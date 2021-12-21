@@ -26,10 +26,10 @@ public class Main {
                     managerCandy.addCandyList();
                     break;
                 case 3:
-                    managerCandy.deleteCandyById();
+                    managerCandy.deleteCandy();
                     break;
                 case 4:
-                    managerCandy.fixCandyById();
+                    managerCandy.editCandy();
                     break;
                 case 5:
                     managerCandy.displayCandyById();
