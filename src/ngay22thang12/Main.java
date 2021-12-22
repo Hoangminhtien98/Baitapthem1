@@ -10,14 +10,13 @@ public class Main {
        do {
            System.out.println("Menu");
            System.out.println("1. Hiển thị tất cả người");
-           System.out.println("2. Hiển thị tất cả nam");
-           System.out.println("3. Hiển thị tất cả Nữ");
-           System.out.println("4. Hiển thị người dưới 20 tuổi");
-           System.out.println("5. Thêm 1 người");
-           System.out.println("6. Xóa 1 người theo tên");
-           System.out.println("7. Sủa 1 người theo tên");
+           System.out.println("2. thêm người");
+           System.out.println("3. xóa người theo tên");
+           System.out.println("4. sửa người theo tên");
+           System.out.println("5. Hiển thị người dưới 20 tuổi");
+           System.out.println("6. Hiển thị tất cả Nam: ");
+           System.out.println("7. Hiển thị tất cả Nữ:");
            System.out.println("8. Hiển thị tất cả người theo tên nhập vào");
-           System.out.println("0. Exit");
            System.out.println("Nhập lựa chọn của bạn: ");
            choice = scanner.nextInt();
            switch (choice) {
